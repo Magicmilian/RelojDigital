@@ -1,0 +1,162 @@
+/* 
+ */
+
+body{
+    background-color: black;
+}
+
+
+
+.pink {
+    text-shadow: 
+        0 0 5px #ff8300,
+        0 0 10px  #ff8300,
+        0 0 20px  #ff8300,
+        0 0 40px  #ff8300,
+        0 0 80px  #ff8300,
+        0 0 90px  #ff8300,
+        0 0 100px  #ff8300,
+        0 0 150px  #ff8300;
+}
+.blue {
+    text-shadow: 
+        0 0 5px #7BACFF,
+        0 0 10px #7BACFF,
+        0 0 20px #7BACFF,
+        0 0 40px #7BACFF,
+        0 0 80px #7BACFF,
+        0 0 90px #7BACFF,
+        0 0 100px #7BACFF,
+        0 0 150px #7BACFF;
+}
+.green {
+    text-shadow: 
+        0 0 5px #7BFFCE,
+        0 0 10px #7BFFCE,
+        0 0 20px #7BFFCE,
+        0 0 40px #7BFFCE,
+        0 0 80px #7BFFCE,
+        0 0 90px #7BFFCE,
+        0 0 100px #7BFFCE,
+        0 0 150px #7BFFCE;
+}
+
+.ycenter{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50% , -50%);
+}
+
+/*MEDIA QUERIES*/
+
+/*X-SMALL DEVICES PUBLICIDAD*/
+@media all and (max-width:576px){
+    .fecha{
+        font-family: 'Orbitron', sans-serif;
+        font-size: 13px;
+        color: white;
+        text-transform: uppercase;
+        letter-spacing: 3px
+        max-width: 900px;
+    }
+    
+    .hora{
+        font-family: 'Londrina Outline', cursive;
+        font-size: 50px;
+        color: white;
+        text-transform: uppercase;
+        letter-spacing: 3px;
+        margin-top: 5%;
+        max-width: 600px;
+    }
+  }
+  
+  
+  /*SMALL DEVICES*/
+  @media all and (min-width:576px) and (max-width:768px){
+    .fecha{
+        font-family: 'Orbitron', sans-serif;
+        font-size: 20px;
+        color: white;
+        text-transform: uppercase;
+        letter-spacing: 3px
+        max-width: 900px;
+    }
+    
+    .hora{
+        font-family: 'Londrina Outline', cursive;
+        font-size: 50px;
+        color: white;
+        text-transform: uppercase;
+        letter-spacing: 3px;
+        margin-top: 5%;
+        max-width: 600px;
+    }
+  }
+  
+  /*MEDIUM DEVICES*/
+  @media all and (min-width: 768px) and (max-width:991px){
+    .fecha{
+        font-family: 'Orbitron', sans-serif;
+        font-size: 33px;
+        color: white;
+        text-transform: uppercase;
+        letter-spacing: 3px
+        max-width: 900px;
+    }
+    
+    .hora{
+        font-family: 'Londrina Outline', cursive;
+        font-size: 100px;
+        color: white;
+        text-transform: uppercase;
+        letter-spacing: 3px;
+        margin-top: 5%;
+        max-width: 600px;
+    }
+  }
+  
+  /*LARGE DEVICES*/
+    @media all and (min-width: 991px){
+        .fecha{
+            font-family: 'Orbitron', sans-serif;
+            font-size: 33px;
+            color: white;
+            text-transform: uppercase;
+            letter-spacing: 3px;
+            max-width: 900px;
+        }
+        
+        .hora{
+            font-family: 'Londrina Outline', cursive;
+            font-size: 100px;
+            color: white;
+            text-transform: uppercase;
+            letter-spacing: 3px;
+            margin-top: 5%;
+            max-width: 600px;
+        }
+  }
+  
+  /*XTRA LARGE DEVICES*/
+    @media all and (min-width: 1200px){
+        .fecha{
+            font-family: 'Orbitron', sans-serif;
+            font-size: 33px;
+            color: white;
+            text-transform: uppercase;
+            letter-spacing: 3px;
+            max-width: 900px;
+        }
+        
+        .hora{
+            font-family: 'Londrina Outline', cursive;
+            font-size: 100px;
+            color: white;
+            text-transform: uppercase;
+            letter-spacing: 3px;
+            margin-top: 5%;
+            max-width: 600px;
+        }
+  } 
